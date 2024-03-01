@@ -1,0 +1,26 @@
+.navbar{
+   background: #212731;
+     color: white;
+     position: fixed;
+     width: 100%;
+}
+.navbar ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6px 2px;
+    list-style: none;
+  }
+  .navbar ul li{
+    margin: 1px 30px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  li input{
+    padding: 4px;
+    border-radius: 10px;
+    border: none;
+  }
+  .navbar ul li:hover{
+     cursor: pointer;
+  }
